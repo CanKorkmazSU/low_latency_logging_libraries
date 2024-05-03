@@ -1,0 +1,1 @@
+/bin/c++ CMakeFiles/workshop_exe2.dir/main.cpp.o -o workshop_exe2  quill/libquill.a -lpthread -lstdc++fs 

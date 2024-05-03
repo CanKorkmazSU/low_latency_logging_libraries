@@ -1,0 +1,58 @@
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.obj
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files (if not using Fortran, can be removed)
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Other files to ignore
+*.bin
+*.ilk
+*.map
+*.exp
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile
+*.log

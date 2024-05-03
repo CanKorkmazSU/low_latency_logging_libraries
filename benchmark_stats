@@ -1,0 +1,28 @@
+Quill Stats
+
+    [Unbounded queue, Unlimited queue size]
+    .Callsite latency for (1/10) million (ms): 9
+    .Callsite latency for million logs (ms): 44
+    .Callsite latency for ten million logs (ms): 815
+
+    .Time to write million w flushing (no-prealloc) (ms): 1153
+    .Time to write million w flushing (W-prealloc) (ms): 1169
+    .Time to write ten million w flushing (W-prealloc) (ms): 9961
+
+    [Unbounded queue, Max queue size (1 << 22) /* 4mb */]
+    .Callsite latency for (1/10) million (ms): 9
+    .Callsite latency for ten million logs (ms): 14664
+    .QuillTest.WriteTest_Million_Iterations_WPrealloc
+        08:48:14 Quill INFO: A new SPSC queue has been allocated with a new capacity of 262144 bytes and a previous capacity of 131072 bytes from thread 945473
+        08:48:14 Quill INFO: A new SPSC queue has been allocated with a new capacity of 524288 bytes and a previous capacity of 262144 bytes from thread 945473
+        08:48:14 Quill INFO: A new SPSC queue has been allocated with a new capacity of 1048576 bytes and a previous capacity of 524288 bytes from thread 945473
+        08:48:14 Quill INFO: A new SPSC queue has been allocated with a new capacity of 2097152 bytes and a previous capacity of 1048576 bytes from thread 945473
+        08:48:14 Quill INFO: A new SPSC queue has been allocated with a new capacity of 4194304 bytes and a previous capacity of 2097152 bytes from thread 945473
+        08:48:15 Quill INFO: UnboundedBlocking queue thread 945473 experienced 1 blocking occurrences
+        08:48:16 Quill INFO: UnboundedBlocking queue thread 945473 experienced 7 blocking occurrences
+        Time to write million w flushing (W-prealloc) (ms): 2209
+    .Time to write ten million w flushing (W-prealloc) (ms): 17535
+
+
+
+SpdLog Stats
