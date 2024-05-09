@@ -1,0 +1,21 @@
+COMMON
+1. Write a common template for testing cases
+2. test under
+    :Quill, Unbounded With 4MB Max Queue Size, Starting at 32'768Kb, Dropping
+    .100'000 iterations, time callsite latency, realistic scenario, O1 optimizations
+    .1'000'000 iterations, time callsite latency
+
+    :Spdlog, Bounded With 4MB Queue Size, Dropping
+    .100'000 iterations, time callsite latency, realistic scenario, O1 optimizations
+    .1'000'000 iterations, time callsite latency
+
+    :Quill, Unbounded With 4MB Max Queue Size, Starting at 32'768Kb, Blocking
+    -Same As Above
+3. display common use cases
+    .Logging at different log levels
+    .Multiplexing logs to multiple files
+    .Filtering and adding callbacks to log calls
+
+
+QUILL
+1. 

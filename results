@@ -1,0 +1,34 @@
+.quill_callsite_latency_E5 
+22:38:07 Quill INFO: A new SPSC queue has been allocated with a new capacity of 262144 bytes and a previous capacity of 131072 bytes from thread 295184
+22:38:07 Quill INFO: A new SPSC queue has been allocated with a new capacity of 524288 bytes and a previous capacity of 262144 bytes from thread 295184
+Item in latencies as nanoseconds is 3784036
+Thread 1 took 3.8 milliseconds to finish.
+
+22:39:24 Quill INFO: A new SPSC queue has been allocated with a new capacity of 262144 bytes and a previous capacity of 131072 bytes from thread 295676
+22:39:24 Quill INFO: A new SPSC queue has been allocated with a new capacity of 524288 bytes and a previous capacity of 262144 bytes from thread 295676
+Item in latencies as nanoseconds is 2861431
+Thread 1 took 2.9 milliseconds to finish.
+
+quill_callsite_latency_E5_four_threads
+22:46:39 Quill INFO: A new SPSC queue has been allocated with a new capacity of 262144 bytes and a previous capacity of 131072 bytes from thread 299035
+22:46:39 Quill INFO: A new SPSC queue has been allocated with a new capacity of 262144 bytes and a previous capacity of 131072 bytes from thread 299036
+22:46:39 Quill INFO: A new SPSC queue has been allocated with a new capacity of 262144 bytes and a previous capacity of 131072 bytes from thread 299037
+22:46:39 Quill INFO: A new SPSC queue has been allocated with a new capacity of 524288 bytes and a previous capacity of 262144 bytes from thread 299035
+22:46:39 Quill INFO: A new SPSC queue has been allocated with a new capacity of 524288 bytes and a previous capacity of 262144 bytes from thread 299036
+22:46:39 Quill INFO: A new SPSC queue has been allocated with a new capacity of 524288 bytes and a previous capacity of 262144 bytes from thread 299037
+Item in latencies as nanoseconds is 2482958
+Thread 2 took 2 milliseconds to finish.
+Item in latencies as nanoseconds is 2392252
+Thread 1 took 2 milliseconds to finish.
+Item in latencies as nanoseconds is 2684282
+Thread 3 took 2 milliseconds to finish.
+All threads finished
+Item in latencies as nanoseconds is 2392252
+Thread 1 took 2 milliseconds to finish.
+Item in latencies as nanoseconds is 2482958
+Thread 2 took 2 milliseconds to finish.
+Item in latencies as nanoseconds is 2684282
+Thread 3 took 2 milliseconds to finish.
+Item in latencies as nanoseconds is 0
+Thread 4 took 0 milliseconds to finish.
+can_z@canz:~/loglibs_demo_quill/build$ 
