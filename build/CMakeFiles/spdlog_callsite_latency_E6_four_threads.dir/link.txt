@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG -rdynamic CMakeFiles/spdlog_callsite_latency_E6_four_threads.dir/spdlog_callsite_latency_E6_four_threads.cpp.o -o spdlog_callsite_latency_E6_four_threads  src/spdlog/libspdlog.a 

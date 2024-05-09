@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG -rdynamic CMakeFiles/spdlog_callsite_latency_E5.dir/spdlog_callsite_latency_E5.cpp.o -o spdlog_callsite_latency_E5  src/spdlog/libspdlog.a 

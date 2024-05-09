@@ -1,0 +1,129 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "src/spdlog",
+					"jsonFile" : "directory-src.spdlog-Release-59d11ae1575eda9774f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/spdlog",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "loglibs_demo_spdlog",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@d21ba8259d260e8a4f91",
+					"jsonFile" : "target-spdlog-Release-dcb391a43358159f968a.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog_callsite_latency_E5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog_callsite_latency_E5-Release-44cd68db25e3c6f9a629.json",
+					"name" : "spdlog_callsite_latency_E5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog_callsite_latency_E5_four_threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog_callsite_latency_E5_four_threads-Release-b5f42349022e204342b5.json",
+					"name" : "spdlog_callsite_latency_E5_four_threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog_callsite_latency_E6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog_callsite_latency_E6-Release-2412d845ce82932d1a89.json",
+					"name" : "spdlog_callsite_latency_E6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog_callsite_latency_E6_four_threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog_callsite_latency_E6_four_threads-Release-945cd8f8b7c12ebe03f6.json",
+					"name" : "spdlog_callsite_latency_E6_four_threads",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/can_z/loglibs_demo_spdlog/build",
+		"source" : "/home/can_z/loglibs_demo_spdlog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
